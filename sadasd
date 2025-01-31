@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendimi Tanıtıyorum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .bio {
+            margin-bottom: 30px;
+        }
+        .bio img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .music-player {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kendimi Tanıtıyorum</h1>
+        <p>Benim adım [Adınız]. Müzik dünyasına dair her şey burada!</p>
+    </header>
+
+    <nav>
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Hakkımda</a>
+        <a href="#">Müziklerim</a>
+        <a href="#">İletişim</a>
+    </nav>
+
+    <div class="content">
+        <section class="bio">
+            <h2>Hakkımda</h2>
+            <div>
+                <img src="profile.jpg" alt="Profil Resmi">
+                <p>Merhaba! Ben [Adınız], bir müzisyenim. [Kısa bir biyografi ekleyin. Örneğin, müzik tarzınız, ilgi alanlarınız, hangi enstrümanları çaldığınız gibi bilgiler burada yer alabilir.]</p>
+            </div>
+        </section>
+
+        <section class="music">
+            <h2>Müziklerim</h2>
+            <p>İşte bazı parçalarım. Dinlemek için tıklayın!</p>
+            
+            <div class="music-player">
+                <audio controls>
+                    <source src="song1.mp3" type="audio/mpeg">
+                    Tarayıcınız ses oynatmayı desteklemiyor.
+                </audio>
+                <p>Parça 1: [Parça Adı]</p>
+            </div>
+
+            <div class="music-player">
+                <audio controls>
+                    <source src="song2.mp3" type="audio/mpeg">
+                    Tarayıcınız ses oynatmayı desteklemiyor.
+                </audio>
+                <p>Parça 2: [Parça Adı]</p>
+            </div>
+
+            <!-- Diğer müzikler eklenebilir -->
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [Adınız]. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
